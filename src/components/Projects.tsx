@@ -5,6 +5,9 @@ import { ExternalLink, Github, Calendar } from 'lucide-react';
 import blockchainImage from '@/assets/blockchain-project.jpg';
 import ecommerceImage from '@/assets/ecommerce-project.jpg';
 import aiImage from '@/assets/ai-project.jpg';
+import marketplaceImage from '@/assets/marketplace-project.jpg';
+import votingImage from '@/assets/voting-project.jpg';
+import educationImage from '@/assets/education-project.jpg';
 
 const Projects = () => {
   const projects = [
@@ -42,7 +45,7 @@ const Projects = () => {
       title: "PixelMint – Digital Marketplace for Creators",
       period: "Mar 2022 – Sep 2022",
       description: "Built a full-stack creator platform with asset uploads, user auth, profile pages, and search. Engineered file handling with IPFS and integrated transaction feedback.",
-      image: blockchainImage,
+      image: marketplaceImage,
       link: "https://pixelmint.io",
       github: "#",
       tags: ["Next.js", "IPFS", "Node.js", "MongoDB"],
@@ -52,7 +55,7 @@ const Projects = () => {
       title: "CivicChain – Voting App for Community Decisions",
       period: "Jul 2023 – Aug 2023",
       description: "Built a lightweight, transparent voting app with ballot creation, user login, and results dashboards. Optimized for mobile and included Firebase real-time sync.",
-      image: blockchainImage,
+      image: votingImage,
       link: "https://civicchain-demo.web.app",
       github: "#",
       tags: ["React", "Firebase", "Web3.js", "Mobile"],
@@ -62,7 +65,7 @@ const Projects = () => {
       title: "Blockchain Visualizer",
       period: "Apr 2022 – Jun 2022",
       description: "Assisted in visualizing block mining and hash propagation logic for educational purposes. Extended UI to simulate double-spend scenarios.",
-      image: blockchainImage,
+      image: educationImage,
       link: "https://leodinh.github.io/blockchain-demo",
       github: "#",
       tags: ["JavaScript", "HTML/CSS", "Education", "Blockchain"],
